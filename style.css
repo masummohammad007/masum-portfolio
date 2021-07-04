@@ -7,6 +7,12 @@ section {
     display: flex;
 }
 
+.main {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+}
+
 .content {
     width: 50%;
     padding: 5%;
@@ -19,6 +25,8 @@ section {
 .content h6 {
     padding-top: 21px;
     padding-bottom: 31px;
+    font-weight: 500;
+    opacity: 0.8;
 }
 
 .orange-color {
@@ -42,5 +50,74 @@ section {
     font-weight: 800;
 }
 
+.content a:hover {
+    background-image: linear-gradient(darkgreen, rgb(208, 255, 0));
+    padding: 16px 40px;
+    margin-top: 16px;
+    display: inline-block;
+    border-radius: 5px;
+    color: black;
+    font-weight: 800;
+}
 
+.image-2 img {
+    width: 60%;
+    border-radius: 10%;
+    padding-left: 5%;
+}
+
+.resume {
+    background-image: linear-gradient(orange, red);
+    text-decoration: none;
+    padding: 16px 40px;
+    margin-top: 16px;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+}
+
+.main-2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experiance1 {
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 88px;
+}
+
+.display-block {
+    padding-top: 26px;
+    display: inline-block;
+}
+
+.experiance1 {
+    width: 50%;
+    margin-right: 130px;
+    margin-bottom: 50px;
+    border-left: 5px solid;
+    box-shadow: 0px 16px 121px;
+    padding: 150px;
+    border-image: linear-gradient(red, greenyellow);
+    border-image-slice: 1;
+    line-height: 20px;
+}
+
+.experiance1 h3 {
+    font-size: medium;
+}
+
+.experiance1 h3,
+p {
+    padding-top: 16px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 4px;
 }
